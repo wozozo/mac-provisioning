@@ -22,23 +22,30 @@
     # state choices: [head, latest, present, absent, linked, unlinked] (default: latest)
     # install_options: string or sequence (default: none)
     homebrew_packages:
+      - zsh
+      - tmux
+      - nvm
+      - vim
+      - git
+      - ag
+      - go
+      - jq
+      - peco
+      - wget
+      - tree
+      - direnv
+      - ngrok
+      - cmake
+      - curlish
+      - rbenv-default-gems
+      - heroku-toolbelt
+      - jpeg
+      - libpng
+      - imagemagick
+      - reattach-to-user-namespace
       - readline
       - openssl
       - { name: openssl, state: linked, install_options: force }
-      - ansible
-      - git
-      - git-flow
-      - heroku-toolbelt
-      - peco
-      - nvm
-      - rbenv
-      - rbenv-gem-rehash
-      - ruby-build
-      - the_silver_searcher
-      - vim
-      - zsh
-      - zsh-completions
-      - zsh-syntax-highlighting
 
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
@@ -53,16 +60,28 @@
     #
     # state choices: [present, absent, installed, uninstalled] (default: present)
     homebrew_cask_packages:
-      - firefox-ja
-      - flash
-      - google-chrome
-      - google-japanese-ime
+      - alfred
+      - dropbox
+      - atom
+      - coteditor
+      - github
+      - skype
       - iterm2
-      - java6
-      - karabiner
-      - phpstorm
-      - rubymine
-      - slack
-      - sublime-text
+      - firefox
+      - macvim
+      - itsycal
+      - mplayerx
+      - mailplane
+      - silverlight
+      - gyazo
+      - boot2docker
       - vagrant
+      - audacity
+      - transmit
+      - handbrake
+      - appcleaner
+      - lingrradar
+      - adobe-air
+      - firefox-ja
+      - slack
       - virtualbox
