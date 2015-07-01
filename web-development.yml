@@ -61,6 +61,7 @@
     # state choices: [present, absent, installed, uninstalled] (default: present)
     homebrew_cask_packages:
       - alfred
+      - dash
       - dropbox
       - atom
       - coteditor
