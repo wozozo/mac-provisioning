@@ -50,6 +50,7 @@
     # Tap external Homebrew Cask repositories.
     homebrew_cask_repositories:
       - caskroom/versions
+      - caskroom/fonts
 
     # Managed Homebrew Cask packages.
     #
@@ -68,12 +69,10 @@
       - github
       - skype
       - iterm2
-      - firefox
       - macvim
       - itsycal
       - mplayerx
       - mailplane
-      - silverlight
       - gyazo
       - boot2docker
       - vagrant
@@ -82,7 +81,9 @@
       - handbrake
       - appcleaner
       - lingrradar
-      - adobe-air
       - firefox-ja
+      - firefoxdeveloperedition-ja
       - slack
       - virtualbox
+      - font-noto-sans-japanese
+      - font-fira-mono-for-powerline
